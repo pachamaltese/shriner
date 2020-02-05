@@ -31,7 +31,7 @@ addDeps <- function(x) {
       as.character(utils::packageVersion("shriner")),
       c(file = system.file(package = "shriner")),
       script = shriner_js,
-      stylesheet = "shriner.css"
+      stylesheet = "shriner.min.css"
     )
   )
 

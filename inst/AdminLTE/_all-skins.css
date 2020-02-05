@@ -77,8 +77,8 @@
 }
 .skin-red .sidebar-menu > li:hover > a,
 .skin-red .sidebar-menu > li.active > a {
-  color: #ffffff;
-  background: #1e282c;
+  color: #333;
+  background: #dcdcdc;
   border-left-color: #e44c65;
 }
 .skin-red .sidebar-menu > li > .treeview-menu {
@@ -86,7 +86,7 @@
   background: #2c3b41;
 }
 .skin-red .sidebar a {
-  color: #b8c7ce;
+  color: #333;
 }
 .skin-red .sidebar a:hover {
   text-decoration: none;
@@ -96,7 +96,7 @@
 }
 .skin-red .treeview-menu > li.active > a,
 .skin-red .treeview-menu > li > a:hover {
-  color: #ffffff;
+  color: #333;
 }
 .skin-red .sidebar-form {
   border-radius: 3px;
@@ -139,4 +139,19 @@
 }
 .skin-red.layout-top-nav .main-header > .logo:hover {
   background-color: #3b8ab8;
+}
+
+.irs-bar {
+  border-top: 1px solid #e44c65;
+  border-bottom: 1px solid #e44c65;
+  background: #e44c65;
+}
+
+.irs-bar-edge {
+  background: #e44c65;
+  border: 1px solid #e44c65
+}
+
+.irs-from, .irs-to, .irs-single {
+  background: #e44c65;
 }
