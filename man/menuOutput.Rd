@@ -2,7 +2,7 @@
 % Please edit documentation in R/menuOutput.R
 \name{menuOutput}
 \alias{menuOutput}
-\title{Create a dynamic menu output for shinydashboard (client side)}
+\title{Create a dynamic menu output for shriner (client side)}
 \usage{
 menuOutput(outputId, tag = tags$li)
 }
@@ -24,8 +24,10 @@ present; for example, \code{\link{dropdownMenuOutput}} and
 \code{\link{renderMenu}} for the corresponding server side function
   and examples.
 
-Other menu outputs: \code{\link{dropdownMenuOutput}},
-  \code{\link{menuItemOutput}}, \code{\link{renderMenu}},
-  \code{\link{sidebarMenuOutput}}
+Other menu outputs: 
+\code{\link{dropdownMenuOutput}()},
+\code{\link{menuItemOutput}()},
+\code{\link{renderMenu}()},
+\code{\link{sidebarMenuOutput}()}
 }
 \concept{menu outputs}
