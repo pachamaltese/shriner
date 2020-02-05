@@ -3,7 +3,7 @@
 # menuItem.
 
 library(shiny)
-library(shinydashboard)
+library(shriner)
 
 options(shiny.launch.browser=F, shiny.minified=F, shiny.port = 9000)
 

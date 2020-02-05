@@ -1,7 +1,7 @@
-## Tries to reproduce Github Issue: https://github.com/rstudio/shinydashboard/issues/42
+## Tries to reproduce Github Issue: https://github.com/rstudio/shriner/issues/42
 
 library(shiny)
-library(shinydashboard)
+library(shriner)
 
 ui <- dashboardPage(
   dashboardHeader(),

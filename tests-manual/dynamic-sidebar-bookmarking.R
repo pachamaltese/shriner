@@ -2,7 +2,7 @@
 # (collapsed/expanded state of the sidebar itself; selected menuItem and; if
 # applicable, the expanded menuItem)
 
-library(shinydashboard)
+library(shriner)
 library(shiny)
 library(threejs)
 

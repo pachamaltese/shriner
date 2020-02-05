@@ -1,4 +1,4 @@
-#' Create a dynamic menu output for shinydashboard (client side)
+#' Create a dynamic menu output for shriner (client side)
 #'
 #' This can be used as a placeholder for dynamically-generated
 #' \code{\link{dropdownMenu}}, \code{\link{notificationItem}},
@@ -15,7 +15,7 @@
 #' @seealso \code{\link{renderMenu}} for the corresponding server side function
 #'   and examples.
 menuOutput <- function(outputId, tag = tags$li) {
-  tag(id = outputId, class = "shinydashboard-menu-output")
+  tag(id = outputId, class = "shriner-menu-output")
 }
 
 

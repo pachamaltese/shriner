@@ -35,4 +35,4 @@ $.extend(sidebarCollapsedInputBinding, {
   }
 });
 Shiny.inputBindings.register(sidebarCollapsedInputBinding,
-  'shinydashboard.sidebarCollapsedInputBinding');
+  'shriner.sidebarCollapsedInputBinding');

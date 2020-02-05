@@ -3,7 +3,7 @@
 // tabItemInputBinding
 // ------------------------------------------------------------------
 // Based on Shiny.tabItemInputBinding, but customized for tabItems in
-// shinydashboard, which have a slightly different structure.
+// shriner, which have a slightly different structure.
 var tabItemInputBinding = new Shiny.InputBinding();
 $.extend(tabItemInputBinding, {
   find: function(scope) {
@@ -45,4 +45,4 @@ $.extend(tabItemInputBinding, {
   }
 });
 
-Shiny.inputBindings.register(tabItemInputBinding, 'shinydashboard.tabItemInput');
+Shiny.inputBindings.register(tabItemInputBinding, 'shriner.tabItemInput');

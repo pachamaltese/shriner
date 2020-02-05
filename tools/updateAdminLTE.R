@@ -1,8 +1,8 @@
 #!/usr/bin/env Rscript
 
-# This script copies resources from AdminLTE to shinydashboard's inst
+# This script copies resources from AdminLTE to shriner's inst
 # directory. The AdminLTE/ project directory should be on the same level
-# as the shinydashboard/ project directory.
+# as the shriner/ project directory.
 
 
 # Returns the file currently being sourced or run with Rscript

@@ -1,7 +1,7 @@
-## Tries to reproduce Github Issue: https://github.com/rstudio/shinydashboard/issues/54
+## Tries to reproduce Github Issue: https://github.com/rstudio/shriner/issues/54
 
 # library(shiny)
-# library(shinydashboard)
+# library(shriner)
 #
 # sidebar <- dashboardSidebar(
 #   sidebarMenu(menuItem("foo",
@@ -21,7 +21,7 @@
 
 # Not working example
 
-library(shinydashboard)
+library(shriner)
 library(shiny)
 
 sidebar <- dashboardSidebar(

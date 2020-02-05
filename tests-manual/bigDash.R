@@ -1,7 +1,7 @@
 ## This tries to render a dashboard with many different components, incl. sidebar, dropdown menus etc.
 
 library(shiny)
-library(shinydashboard)
+library(shriner)
 
 header <- dashboardHeader(
   title = "Dashboard Demo",

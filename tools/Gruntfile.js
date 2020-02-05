@@ -11,10 +11,10 @@ module.exports = function(grunt) {
     clean: {
       options: { force: true },
       src: [
-        destdirjs + "shinydashboard.js",
-        destdirjs + "shinydashboard.js.map",
-        destdirjs + "shinydashboard.min.js",
-        destdirjs + "shinydashboard.min.js.map",
+        destdirjs + "shriner.js",
+        destdirjs + "shriner.js.map",
+        destdirjs + "shriner.min.js",
+        destdirjs + "shriner.min.js.map",
         destdirjs + "AdminLTE/app.js",
         destdirjs + "AdminLTE/app.js.map",
         destdirjs + "AdminLTE/app.min.js",
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         },
         sourceMap: true
       },
-      shinydashboard: {
+      shriner: {
         src: [
           srcdirjs + '_start.js',
           srcdirjs + 'tabs.js',
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
           srcdirjs + 'input_binding_sidebarmenuExpanded.js',
           srcdirjs + '_end.js'
         ],
-        dest: destdirjs + 'shinydashboard.js'
+        dest: destdirjs + 'shriner.js'
       },
       adminlte: {
         src: [
@@ -54,18 +54,18 @@ module.exports = function(grunt) {
     },
 
     uglify: {
-      shinydashboard: {
+      shriner: {
         options: {
           banner: '/*! <%= pkg.name %> <%= pkg.version %> | ' +
                   '(c) 2017-<%= grunt.template.today("yyyy") %> RStudio, Inc. | ' +
                   'License: <%= pkg.license %> */\n',
           sourceMap: true,
           // Base the .min.js sourcemap off of the .js sourcemap created by concat
-          sourceMapIn: destdirjs + 'shinydashboard.js.map',
+          sourceMapIn: destdirjs + 'shriner.js.map',
           sourceMapIncludeSources: true
         },
-        src: destdirjs + 'shinydashboard.js',
-        dest: destdirjs + 'shinydashboard.min.js'
+        src: destdirjs + 'shriner.js',
+        dest: destdirjs + 'shriner.min.js'
       },
       adminlte: {
         options: {
@@ -105,7 +105,7 @@ module.exports = function(grunt) {
         ],
         globals: ["strftime"]
       },
-      shinydashboard: [
+      shriner: [
         srcdirjs + 'tabs.js',
         srcdirjs + 'sidebar.js',
         srcdirjs + 'output_binding_menu.js',
@@ -116,9 +116,9 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      shinydashboard: {
-        files: '<%= concat.shinydashboard.src %>',
-        tasks: ['newer:concat:shinydashboard', 'newer:uglify:shinydashboard', 'newer:jshint:shinydashboard']
+      shriner: {
+        files: '<%= concat.shriner.src %>',
+        tasks: ['newer:concat:shriner', 'newer:uglify:shriner', 'newer:jshint:shriner']
       },
       adminlte: {
         files: ['<%= uglify.adminlte.src %>', '<%= cssmin.adminlte.src %>'],

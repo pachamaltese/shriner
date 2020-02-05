@@ -30,4 +30,4 @@ $.extend(sidebarmenuExpandedInputBinding, {
   }
 });
 Shiny.inputBindings.register(sidebarmenuExpandedInputBinding,
-  'shinydashboard.sidebarmenuExpandedInputBinding');
+  'shriner.sidebarmenuExpandedInputBinding');

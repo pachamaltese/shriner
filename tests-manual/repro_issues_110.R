@@ -1,6 +1,6 @@
-## Tries to reproduce Github Issue: https://github.com/rstudio/shinydashboard/issues/110
+## Tries to reproduce Github Issue: https://github.com/rstudio/shriner/issues/110
 library(shiny)
-library(shinydashboard)
+library(shriner)
 
 header <- dashboardHeader(title = "Dashboard Demo")
 

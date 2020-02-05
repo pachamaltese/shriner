@@ -8,7 +8,7 @@
 var menuOutputBinding = new Shiny.OutputBinding();
 $.extend(menuOutputBinding, {
   find: function(scope) {
-    return $(scope).find('.shinydashboard-menu-output');
+    return $(scope).find('.shriner-menu-output');
   },
   onValueError: function(el, err) {
     Shiny.unbindAll(el);
@@ -34,7 +34,7 @@ $.extend(menuOutputBinding, {
     Shiny.renderHtml($html.html(), el, dependencies);
 
     // Extract class of wrapper, and add them to the wrapper element
-    el.className = 'shinydashboard-menu-output shiny-bound-output ' +
+    el.className = 'shriner-menu-output shiny-bound-output ' +
                    $html.attr('class');
 
     Shiny.initializeInputs(el);
@@ -43,4 +43,4 @@ $.extend(menuOutputBinding, {
   }
 });
 Shiny.outputBindings.register(menuOutputBinding,
-                              "shinydashboard.menuOutputBinding");
+                              "shriner.menuOutputBinding");

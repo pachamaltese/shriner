@@ -1,9 +1,9 @@
 library(shiny)
-library(shinydashboard)
+library(shriner)
 
-# When the selected tab is not the first, and the renderMenu 
-# is invalidated, the first tab gets selected. Here is an 
-# example: If you type something inside the textInput called 
+# When the selected tab is not the first, and the renderMenu
+# is invalidated, the first tab gets selected. Here is an
+# example: If you type something inside the textInput called
 # "foo" (on tab2), tab1 is selected.
 
 ui <- dashboardPage(
@@ -19,7 +19,7 @@ ui <- dashboardPage(
   ),
   dashboardBody(
     tabItems(
-      tabItem(tabName = "tab1", 
+      tabItem(tabName = "tab1",
               h1("tab1")
               ),
       tabItem(tabName = "tab2",

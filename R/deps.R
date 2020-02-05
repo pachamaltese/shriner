@@ -13,25 +13,25 @@ appendDependencies <- function(x, value) {
 addDeps <- function(x) {
   if (getOption("shiny.minified", TRUE)) {
     adminLTE_js <- "app.min.js"
-    shinydashboard_js <- "shinydashboard.min.js"
+    shriner_js <- "shriner.min.js"
     adminLTE_css <- c("AdminLTE.min.css", "_all-skins.min.css")
   } else {
     adminLTE_js <- "app.js"
-    shinydashboard_js <- "shinydashboard.js"
+    shriner_js <- "shriner.js"
     adminLTE_css <- c("AdminLTE.css", "_all-skins.css")
   }
 
   dashboardDeps <- list(
     htmlDependency("AdminLTE", "2.0.6",
-      c(file = system.file("AdminLTE", package = "shinydashboard")),
+      c(file = system.file("AdminLTE", package = "shriner")),
       script = adminLTE_js,
       stylesheet = adminLTE_css
     ),
-    htmlDependency("shinydashboard",
-      as.character(utils::packageVersion("shinydashboard")),
-      c(file = system.file(package = "shinydashboard")),
-      script = shinydashboard_js,
-      stylesheet = "shinydashboard.css"
+    htmlDependency("shriner",
+      as.character(utils::packageVersion("shriner")),
+      c(file = system.file(package = "shriner")),
+      script = shriner_js,
+      stylesheet = "shriner.css"
     )
   )
 
