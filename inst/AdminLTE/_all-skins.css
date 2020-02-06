@@ -61,8 +61,7 @@
 .skin-red .wrapper,
 .skin-red .main-sidebar,
 .skin-red .left-side {
-  background-color: #f5f5f5;
-  border-right: 2px solid #d3d3d3;
+  background-color: #cdd4c0;
 }
 .skin-red .user-panel > .info,
 .skin-red .user-panel > .info > a {
@@ -78,7 +77,7 @@
 .skin-red .sidebar-menu > li:hover > a,
 .skin-red .sidebar-menu > li.active > a {
   color: #333;
-  background: #dcdcdc;
+  background: #e4ecd6;
   border-left-color: #e44c65;
 }
 .skin-red .sidebar-menu > li > .treeview-menu {
