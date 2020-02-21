@@ -3,8 +3,8 @@
  * ----------
  */
 .skin-red .main-header .navbar {
-  background-color: #e44c65;
-  background-image: url(pattern-triangle.png)
+  background-color: #a11c46;
+  background-image: url('pattern-triangle.png');
 }
 .skin-red .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -30,7 +30,7 @@
   color: #fff;
 }
 .skin-red .main-header .navbar .sidebar-toggle:hover {
-  background-color: #cd445a;
+  background-color: #970332;
 }
 @media (max-width: 767px) {
   .skin-red .main-header .navbar .dropdown-menu li.divider {
@@ -40,20 +40,20 @@
     color: #fff;
   }
   .skin-red .main-header .navbar .dropdown-menu li a:hover {
-    background: #cd445a;
+    background: #970332;
   }
 }
 .skin-red .main-header .logo {
-  background-color: #cd445a;
-  background-image: url(pattern-triangle.png);
+  background-color: #970332;
+  background-image: url('pattern-triangle.png');
   color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-red .main-header .logo:hover {
-  background-color: #cd445a;
+  background-color: #970332;
 }
 .skin-red .main-header li.user-header {
-  background-color: #e44c65;
+  background-color: #970332;
 }
 .skin-red .content-header {
   background: transparent;
@@ -61,7 +61,7 @@
 .skin-red .wrapper,
 .skin-red .main-sidebar,
 .skin-red .left-side {
-  background-color: #cdd4c0;
+  background-color: #dcdcdc;
 }
 .skin-red .user-panel > .info,
 .skin-red .user-panel > .info > a {
@@ -77,8 +77,8 @@
 .skin-red .sidebar-menu > li:hover > a,
 .skin-red .sidebar-menu > li.active > a {
   color: #333;
-  background: #e4ecd6;
-  border-left-color: #e44c65;
+  background: #f5f5f5;
+  border-left-color: #970332;
 }
 .skin-red .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
@@ -132,7 +132,7 @@
   border-bottom-left-radius: 0;
 }
 .skin-red.layout-top-nav .main-header > .logo {
-  background-color: #e44c65;
+  background-color: #970332;
   color: #ffffff;
   border-bottom: 0 solid transparent;
 }
@@ -141,16 +141,16 @@
 }
 
 .irs-bar {
-  border-top: 1px solid #e44c65;
-  border-bottom: 1px solid #e44c65;
-  background: #e44c65;
+  border-top: 1px solid #970332;
+  border-bottom: 1px solid #970332;
+  background: #970332;
 }
 
 .irs-bar-edge {
-  background: #e44c65;
-  border: 1px solid #e44c65
+  background: #970332;
+  border: 1px solid #970332
 }
 
 .irs-from, .irs-to, .irs-single {
-  background: #e44c65;
+  background: #970332;
 }
